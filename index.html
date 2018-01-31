@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="utf-8">
+    <title>moto</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="header-social">
+                    <li><a href="#"><img src="images/face.png" alt="face"></a></li>
+                    <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="images/google.png" alt="google"></a></li>
+                    <li><a href="#"><img src="images/linken.png" alt="linken"></a></li>
+                </ul>
+                <ul class="header-menu">
+                    <li><a class="header-menu-link" href="#">home</a></li>
+                    <li><a class="header-menu-link" href="#">vehicles</a></li>
+                    <li><a class="header-menu-link" href="#">about us</a></li>
+                    <li><a class="header-menu-link" href="#">login</a></li>
+                    <li><a class="header-menu-btn" href="#">sign up</a></li>
+                    <li><a class="header-menu-link header-menu-ip" href="#">250.792.1201</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+    <div class="search">
+        <div class="container">
+            <div class="search-wrapper">
+                <form method="post">
+                    <div class="form-wrapper">
+                        <p>City, address, zip code</p>
+                        <input type="text" placeholder="Victoria, BC" required>
+                        <a href="#"><img src="images/loc.png" alt="loc"></a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="form-wrapper radio">
+                        <p>Condition</p>
+                        <input type="radio" name="radio" id="id-used" value="used" checked required>
+                        <label for="id-used">Used</label>
+                        <input type="radio" name="radio" id="new" value="new" class="new" required>
+                        <label class="second" for="new">New</label>
+                    </div>
+                    <div class="form-wrapper">
+                        <p>Type</p>
+                        <img src="images/bike.png" class="selekt-img" alt="bike">
+                        <select id="select" class="select" name="class">
+                            <option value="t1">Sport</option>
+                            <option value="t2">Lorem Ipsum</option>
+                        </select>
+                    </div>
+                    <div class="form-wrapper">
+                        <p>Make</p>
+                        <img src="images/harley-davidson.png" class="selekt-img" alt="bike">
+                        <select id="select" class="select" name="class">
+                            <option value="t1">Harley Davidson</option>
+                            <option value="t2">Lorem Ipsum</option>
+                        </select>
+                    </div>
+                    <div class="form-wrapper no-img">
+                        <p>Year</p>
+                        <select id="select" class="select" name="class">
+                            <option value="t1">Lost 5 tears</option>
+                            <option value="t2">Lorem Ipsum</option>
+                        </select>
+                    </div>
+                    <div class="form-wrapper bc">
+                        <p>Price</p>
+                        <img class="minus-img" src="images/minus.png" alt="minus">
+                        <img class="plus-img" src="images/plus.png" alt="plus">
+                        <div class="minus"></div>
+                        <div class="plus"></div>
+                    </div>
+                    <input class="form-btn" type="submit" name="class" value="Search">
+                    <div class="clearfix">  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="units">
+        <div class="container">
+            <div class="units-wrapper m-bottom flex">
+                <div class="units-call">
+                    <img src="images/moto.gif" alt="moto">
+                    <h2>2015 Kawasaki Concours 14</br>ABS Touring</h2>
+                    <p>Make: Kawasaki</p>
+                    <p>Model: Concours 14 ABS Touring</p>
+                    <p>Year: 2015</p>
+                    <p>Color: Green</p>
+                    <p>Odometer: 12000 KM</p>
+                    <p>Average: $ 15,499.00</p>
+                    <div class="units-btn-wrapper m-bot-top"><a href="#">MAKE AN OFFER  »</a></div>
+                    <div class="units-btn-wrapper"><a href="#">VIEW PRODUCT  »</a></div>
+                </div>
+                <div class="units-call">
+                    <img src="images/moto.gif" alt="moto">
+                    <h2>2015 Kawasaki Concours 14</br>ABS Touring</h2>
+                    <p>Make: Kawasaki</p>
+                    <p>Model: Concours 14 ABS Touring</p>
+                    <p>Year: 2015</p>
+                    <p>Color: Green</p>
+                    <p>Odometer: 12000 KM</p>
+                    <p>Average: $ 15,499.00</p>
+                    <div class="units-btn-wrapper m-bot-top"><a href="#">MAKE AN OFFER  »</a></div>
+                    <div class="units-btn-wrapper"><a href="#">VIEW PRODUCT  »</a></div>
+                </div>
+                <div class="units-call">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><img src="images/moto.gif" alt="1"></div>
+                        <div class="item"><img src="images/moto.gif" alt="2"></div>
+                    </div>
+                    <h2>2015 Kawasaki Concours 14</br>ABS Touring</h2>
+                    <p>Make: Kawasaki</p>
+                    <p>Model: Concours 14 ABS Touring</p>
+                    <p>Year: 2015</p>
+                    <p>Color: Green</p>
+                    <p>Odometer: 12000 KM</p>
+                    <p>Average: $ 15,499.00</p>
+                    <div class="units-btn-wrapper m-bot-top"><a href="#">MAKE AN OFFER  »</a></div>
+                    <div class="units-btn-wrapper"><a href="#">VIEW PRODUCT  »</a></div>
+                </div>
+                <div class="units-call">
+                    <img src="images/moto.gif" alt="moto">
+                    <h2>2015 Kawasaki Concours 14</br>ABS Touring</h2>
+                    <p>Make: Kawasaki</p>
+                    <p>Model: Concours 14 ABS Touring</p>
+                    <p>Year: 2015</p>
+                    <p>Color: Green</p>
+                    <p>Odometer: 12000 KM</p>
+                    <p>Average: $ 15,499.00</p>
+                    <div class="units-btn-wrapper m-bot-top"><a href="#">MAKE AN OFFER  »</a></div>
+                    <div class="units-btn-wrapper"><a href="#">VIEW PRODUCT  »</a></div>
+                </div>
+                <div class="units-call">
+                    <img src="images/moto.gif" alt="moto">
+                    <h2>2015 Kawasaki Concours 14</br>ABS Touring</h2>
+                    <p>Make: Kawasaki</p>
+                    <p>Model: Concours 14 ABS Touring</p>
+                    <p>Year: 2015</p>
+                    <p>Color: Green</p>
+                    <p>Odometer: 12000 KM</p>
+                    <p>Average: $ 15,499.00</p>
+                    <div class="units-btn-wrapper m-bot-top"><a href="#">MAKE AN OFFER  »</a></div>
+                    <div class="units-btn-wrapper"><a href="#">VIEW PRODUCT  »</a></div>
+                </div>
+                <div class="units-call">
+                    <img src="images/moto.gif" alt="moto">
+                    <h2>2015 Kawasaki Concours 14</br>ABS Touring</h2>
+                    <p>Make: Kawasaki</p>
+                    <p>Model: Concours 14 ABS Touring</p>
+                    <p>Year: 2015</p>
+                    <p>Color: Green</p>
+                    <p>Odometer: 12000 KM</p>
+                    <p>Average: $ 15,499.00</p>
+                    <div class="units-btn-wrapper m-bot-top"><a href="#">MAKE AN OFFER  »</a></div>
+                    <div class="units-btn-wrapper"><a href="#">VIEW PRODUCT  »</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pages">
+        <div class="container">
+            <div class="pages-wrapper">
+                <p>
+                    <a class="pages-btn" href="#">1</a>
+                    <a class="pages-btn" href="#">2</a>
+                    <a class="pages-btn mr" href="#">3</a>...
+                    <a class="pages-btn ml" href="#">31</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper flex">
+                <div class="footer-call">
+                    <h3>
+                        who we are
+                    </h3>
+                    <p><a href="    "> About us</a></p>
+                    <p><a href="    "> Contact us</a></p>
+                </div>
+                <div class="footer-call">
+                    <h3>
+                        connect
+                    </h3>
+                    <p>
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i>Facebook</a>
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i>Twitter</a>
+                    </p>
+                    <p>
+                        <a href="https://plus.google.com/"><i class="fa fa-google-plus"></i>Google+</a>
+                    </p>
+                    <p>
+                        <a href=""><i class="fa fa-linkedin"></i>Linkedin</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
